@@ -75,4 +75,11 @@ Si algo falla, mandanos:
 No hace falta que sea un reporte formal, con un mensaje contándonos lo que
 viste alcanza.
 
+## Apoyar el proyecto
+
+Cartridge es un proyecto personal, hecho en tiempo libre. Si te gusta y
+querés bancar el desarrollo, podés invitarme un cafecito acá:
+**<https://ko-fi.com/united2204>** — totalmente opcional, no afecta nada de la
+app ni de esta beta.
+
 ¡Gracias de nuevo por probarlo!
