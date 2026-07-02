@@ -75,6 +75,9 @@ Si algo falla, mandanos:
 No hace falta que sea un reporte formal, con un mensaje contándonos lo que
 viste alcanza.
 
+También tenemos un Discord para reportar bugs, charlar y enterarte de
+novedades: **<https://discord.gg/XjurW8XXPf>**
+
 ## Apoyar el proyecto
 
 Cartridge es un proyecto personal, hecho en tiempo libre. Si te gusta y
