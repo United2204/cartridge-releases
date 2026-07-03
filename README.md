@@ -15,6 +15,9 @@ vale oro para encontrar cosas que todavía no cubrimos.
 - macOS (Apple Silicon o Intel — la app es universal, corre nativo en las dos).
 - Tus juegos ya descomprimidos en una carpeta (o los `.zip`/`.rar` originales
   para descomprimir vos mismo con el Finder / Archive Utility).
+  **Importante: esa carpeta NO puede estar dentro de Descargas** — movela a
+  Documentos, Escritorio, o cualquier otra ubicación antes de elegirla en
+  Cartridge.
 
 ## Instalación
 

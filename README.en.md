@@ -16,6 +16,9 @@ is genuinely valuable for finding things we haven't covered yet.
   both).
 - Your games already unzipped into a folder (or the original `.zip`/`.rar`
   files, which you can unzip yourself with Finder / Archive Utility).
+  **Important: that folder can NOT be inside Downloads** — move it to
+  Documents, Desktop, or any other location before selecting it in
+  Cartridge.
 
 ## Installation
 
