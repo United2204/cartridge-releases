@@ -1,5 +1,7 @@
 # Cartridge — Guía para testers
 
+*[Read this in English](LEEME.en.md)*
+
 ¡Gracias por darle una mano a este proyecto! Cartridge es un launcher nativo
 de macOS para fangames de Pokémon hechos en RPG Maker XP / Essentials. La
 idea es simple: apretás JUGAR y el juego arranca, sin instalar Wine, sin
