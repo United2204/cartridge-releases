@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Cartridge</title>
+    <link>https://raw.githubusercontent.com/United2204/cartridge-releases/main/appcast.xml</link>
+    <description>Actualizaciones de Cartridge</description>
+    <language>es</language>
+    <item>
+      <title>Cartridge 0.1 (beta 4)</title>
+      <pubDate>Sat, 04 Jul 2026 23:20:21 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.1-beta4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Primera versión con actualización automática (Sparkle): de acá en adelante se actualiza sola.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/United2204/cartridge-releases/releases/download/v0.1-beta4/Cartridge.zip"
+                 sparkle:edSignature="qDo9RvjfSA2vrB8QPF0bDuDRka3sHqV2hRRwe+fO2Vs+TTgX5xAZrsdN7bG+E0JdFxOSDbQCscIDjcKyFbK0Cw=="
+                 length="108654497"
+                 type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
