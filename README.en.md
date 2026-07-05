@@ -10,6 +10,12 @@ setup.
 This is an **experimental, actively developed** project, so your testing
 is genuinely valuable for finding things we haven't covered yet.
 
+## Download
+
+👉 **[Grab the latest version here](https://github.com/United2204/cartridge-releases/releases/latest)**
+(the `Cartridge.zip` file). That's all you need — once installed, the app
+updates itself (see below).
+
 ## Requirements
 
 - macOS (Apple Silicon or Intel — the app is universal, runs natively on
@@ -26,18 +32,38 @@ macOS will block the app the first time because it doesn't have an Apple
 developer signature yet (that's a separate paperwork step, it doesn't
 affect how the app works). To open it:
 
-1. Unzip the `.zip` we sent you and move `Cartridge.app` to your
+1. Unzip the `.zip` you downloaded and move `Cartridge.app` to your
    Applications folder (or wherever you prefer).
-2. **Right-click `Cartridge.app` → Open.** You'll get an "unidentified
-   developer" warning — click **Open** anyway.
-   - If instead it says the app "is damaged" and won't let you open it,
-     open Terminal and run this once (adjust the path if you moved the
-     app):
-     ```
-     xattr -cr /Applications/Cartridge.app
-     ```
-     then try right-click → Open again.
-3. After that first time, it opens normally with a double-click.
+2. **Try first:** right-click `Cartridge.app` → **Open**. If you get an
+   "unidentified developer" warning, click **Open** anyway.
+3. **On recent macOS (Sequoia / Tahoe) the right-click trick no longer
+   works** — the first time it'll just say it can't be opened. That's
+   normal. Do this instead:
+   - Open **System Settings → Privacy & Security**.
+   - Scroll to the bottom: you'll see a message like *"Cartridge.app was
+     blocked…"* with an **"Open Anyway"** button. Click it.
+   - Confirm with your password / Touch ID and choose **Open**.
+4. **If it says the app "is damaged"** and won't let you open it at all,
+   open Terminal and run this once (adjust the path if you moved the app):
+   ```
+   xattr -cr /Applications/Cartridge.app
+   ```
+   then try again.
+5. After that first time, it opens normally with a double-click.
+
+## Automatic updates
+
+Since **beta 4**, Cartridge **updates itself**. When we publish a new
+version, the app offers it to you on launch and installs it with one
+click — you don't have to download anything by hand or repeat the steps
+above.
+
+To check manually at any time, use the **Cartridge → "Check for
+Updates…"** menu (top-left, in the menu bar).
+
+> If you were on an old beta (1, 2 or 3) that's no longer in the list,
+> those didn't have auto-update: download the latest from the link above
+> and it'll keep itself up to date from then on.
 
 ## How to use it
 
