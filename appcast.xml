@@ -6,6 +6,22 @@
     <description>Actualizaciones de Cartridge</description>
     <language>es</language>
     <item>
+      <title>Cartridge 0.1 (beta 8)</title>
+      <pubDate>Sun, 05 Jul 2026 23:19:48 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.1-beta8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Fix crítico: el motor no arrancaba para ningún juego en la beta 7 (firma ad-hoc del motor embebido invalidada al empaquetar; beta 7 retirada). Además: perfiles de escalado gráfico opcionales por juego (pixel perfecto, entero, xBRZ, bicúbico).</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/United2204/cartridge-releases/releases/download/v0.1-beta8/Cartridge.zip"
+                 sparkle:edSignature="RUNg/dwI0DMGeQWhR6vOUaitI2Rmk37Eum9tqviN3J7WFabQGWH0FtIx4bSAGFnwLZ1VpiECsgZmjjZvUPF7Dg=="
+                 length="109070067"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Cartridge 0.1 (beta 6)</title>
       <pubDate>Sun, 05 Jul 2026 02:35:28 +0000</pubDate>
       <sparkle:version>6</sparkle:version>
