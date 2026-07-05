@@ -6,22 +6,6 @@
     <description>Actualizaciones de Cartridge</description>
     <language>es</language>
     <item>
-      <title>Cartridge 0.1 (beta 7)</title>
-      <pubDate>Sun, 05 Jul 2026 23:09:40 +0000</pubDate>
-      <sparkle:version>7</sparkle:version>
-      <sparkle:shortVersionString>0.1-beta7</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[
-        <ul>
-          <li>Perfiles de escalado gráfico opcionales por juego (pixel perfecto, entero, xBRZ, bicúbico), asignables y editables desde la tarjeta de cada juego.</li>
-        </ul>
-      ]]></description>
-      <enclosure url="https://github.com/United2204/cartridge-releases/releases/download/v0.1-beta7/Cartridge.zip"
-                 sparkle:edSignature="tlgHu+aKhGkNSY5DdA7ywq2ui6NdSh6vO2Mh9eV+RNyZiyGeNTedSYFczmIUjZ4pCdDw59uV6v/mJu+A6GziBA=="
-                 length="109070063"
-                 type="application/octet-stream" />
-    </item>
-    <item>
       <title>Cartridge 0.1 (beta 6)</title>
       <pubDate>Sun, 05 Jul 2026 02:35:28 +0000</pubDate>
       <sparkle:version>6</sparkle:version>
