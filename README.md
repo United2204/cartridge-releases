@@ -10,6 +10,12 @@ configurar nada a mano.
 Es un proyecto **experimental y en desarrollo activo**, así que tu prueba
 vale oro para encontrar cosas que todavía no cubrimos.
 
+## Descargar
+
+👉 **[Bajá la última versión acá](https://github.com/United2204/cartridge-releases/releases/latest)**
+(el archivo `Cartridge.zip`). Con eso alcanza — una vez instalada, la app se
+actualiza sola (ver más abajo).
+
 ## Requisitos
 
 - macOS (Apple Silicon o Intel — la app es universal, corre nativo en las dos).
@@ -24,17 +30,36 @@ vale oro para encontrar cosas que todavía no cubrimos.
 macOS va a bloquear la app la primera vez porque todavía no tiene firma de
 Apple (eso es un trámite aparte, no afecta cómo funciona). Para abrirla:
 
-1. Descomprimí el `.zip` que te pasamos y movés `Cartridge.app` a tu carpeta
-   de Aplicaciones (o donde prefieras).
-2. **Click derecho sobre `Cartridge.app` → Abrir.** Te va a aparecer un
-   aviso de "desarrollador no identificado" — tocá **Abrir** igual.
-   - Si en vez de eso te dice que "está dañada" y no te deja, abrí la
-     Terminal y corré (una sola vez, cambiando la ruta si moviste la app):
-     ```
-     xattr -cr /Applications/Cartridge.app
-     ```
-     y volvé a intentar con click derecho → Abrir.
-3. Las próximas veces ya abre normal con doble click.
+1. Descomprimí el `.zip` que bajaste y mové `Cartridge.app` a tu carpeta de
+   Aplicaciones (o donde prefieras).
+2. **Probá primero:** click derecho sobre `Cartridge.app` → **Abrir**. Si
+   aparece un aviso de "desarrollador no identificado", tocá **Abrir** igual.
+3. **En macOS moderno (Sequoia / Tahoe) el click derecho ya no alcanza** —
+   la primera vez te va a decir que no se puede abrir. Es normal. Hacé esto:
+   - Abrí **Ajustes del Sistema → Privacidad y seguridad**.
+   - Bajá hasta el final: vas a ver un mensaje tipo *"Se bloqueó el uso de
+     Cartridge.app…"* con un botón **"Abrir igual"**. Tocalo.
+   - Confirmá con tu contraseña/Touch ID y elegí **Abrir**.
+4. **Si dice que "está dañada"** y no te deja de ninguna forma, abrí la
+   Terminal y corré esto una sola vez (cambiá la ruta si moviste la app):
+   ```
+   xattr -cr /Applications/Cartridge.app
+   ```
+   y volvé a intentar.
+5. Después de esa primera vez, abre normal con doble click.
+
+## Actualizaciones automáticas
+
+Desde la **beta 4**, Cartridge **se actualiza sola**. Cuando publicamos una
+versión nueva, la app te la ofrece al abrirla y se instala con un click —
+no tenés que volver a bajar nada a mano ni repetir los pasos de arriba.
+
+Si querés forzar la búsqueda en cualquier momento, andá al menú **Cartridge
+→ "Buscar actualizaciones…"** (arriba a la izquierda, en la barra de menú).
+
+> Si estabas en una beta vieja (1, 2 o 3) que ya no aparece en la lista,
+> esas no tenían auto-update: bajá la última desde el link de arriba y de
+> ahí en más se actualiza sola.
 
 ## Cómo usar
 
