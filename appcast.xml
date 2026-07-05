@@ -6,6 +6,22 @@
     <description>Actualizaciones de Cartridge</description>
     <language>es</language>
     <item>
+      <title>Cartridge 0.1 (beta 6)</title>
+      <pubDate>Sun, 05 Jul 2026 02:35:28 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.1-beta6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Soporte de joystick/gamepad por Bluetooth: controles modernos (Xbox, PlayStation, 8BitDo, GameSir, etc.) andan al conectarlos, con base de mandos actualizada. Nota: usar modo Bluetooth, no el dongle 2.4 GHz.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/United2204/cartridge-releases/releases/download/v0.1-beta6/Cartridge.zip"
+                 sparkle:edSignature="Ke95TQxdEPffUA5PrEh3G8qw6vlNAOjXMvgj2oCIzBToA78kk5SW+ar2p7cy1LC0gQ4+ElEWZaB6YzfC4sWMBA=="
+                 length="108667346"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Cartridge 0.1 (beta 5)</title>
       <pubDate>Sun, 05 Jul 2026 00:11:44 +0000</pubDate>
       <sparkle:version>5</sparkle:version>
