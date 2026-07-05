@@ -6,6 +6,22 @@
     <description>Actualizaciones de Cartridge</description>
     <language>es</language>
     <item>
+      <title>Cartridge 0.1 (beta 5)</title>
+      <pubDate>Sun, 05 Jul 2026 00:11:44 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.1-beta5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Primera actualización automática real: verifica el flujo Sparkle de punta a punta. Sin cambios funcionales respecto a beta 4.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/United2204/cartridge-releases/releases/download/v0.1-beta5/Cartridge.zip"
+                 sparkle:edSignature="b0926g2FXNq5nQWTQzZJtW9aHk1nHD3oSaNt+HTfTCuGsXJJIC1zMzddESyXTK6lsrDZTxpZxKxZifdW1bEnDQ=="
+                 length="108654500"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Cartridge 0.1 (beta 4)</title>
       <pubDate>Sat, 04 Jul 2026 23:20:21 +0000</pubDate>
       <sparkle:version>4</sparkle:version>
