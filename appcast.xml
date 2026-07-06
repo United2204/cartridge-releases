@@ -6,6 +6,22 @@
     <description>Actualizaciones de Cartridge</description>
     <language>es</language>
     <item>
+      <title>Cartridge 0.1 (beta 9)</title>
+      <pubDate>Mon, 06 Jul 2026 00:16:15 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.1-beta9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Fix: crash al pisar una MT recién obtenida en juegos con randomizadores de movimientos viejos (ej. Pokémon Añil). Un plugin de terceros podía pasar un ID de movimiento inválido y tirar abajo el juego entero; ahora se degrada de forma segura en vez de crashear.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/United2204/cartridge-releases/releases/download/v0.1-beta9/Cartridge.zip"
+                 sparkle:edSignature="2subQU9+FgUC9LRfScYQnmQL7UObOyXlWl/S3xJXcrhAE05XnI7pb6Iep6tOCDJhRd1jJ/3GbAypABr9fojgDQ=="
+                 length="109070715"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Cartridge 0.1 (beta 8)</title>
       <pubDate>Sun, 05 Jul 2026 23:19:48 +0000</pubDate>
       <sparkle:version>8</sparkle:version>
