@@ -6,6 +6,22 @@
     <description>Actualizaciones de Cartridge</description>
     <language>es</language>
     <item>
+      <title>Cartridge 0.1 (beta 10)</title>
+      <pubDate>Tue, 07 Jul 2026 14:49:26 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.1-beta10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Arregla el crash al usar Poké Balls en batalla en juegos v16 (Ruby 1.8). Corrige el parpadeo del agua (patrón rojo/negro) en mapas con agua animada de muchos frames.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/United2204/cartridge-releases/releases/download/v0.1-beta10/Cartridge.zip"
+                 sparkle:edSignature="a1Rz2MJ7poC2StHb/lJ55Luk8n12ocPbw15PUjx8sShDLxQPTdHEEEbmMx5Pp+HJ6KWte10EXhPQZdlglcMuAw=="
+                 length="109074035"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Cartridge 0.1 (beta 9)</title>
       <pubDate>Mon, 06 Jul 2026 00:16:15 +0000</pubDate>
       <sparkle:version>9</sparkle:version>
