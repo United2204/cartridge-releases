@@ -6,6 +6,22 @@
     <description>Actualizaciones de Cartridge</description>
     <language>es</language>
     <item>
+      <title>Cartridge 0.1 (beta 11)</title>
+      <pubDate>Tue, 07 Jul 2026 22:51:27 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.1-beta11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Arregla la música MIDI (jingles de captura, curar en el Centro, evolución) que podía quedar muda en algunos juegos si se movía la app de lugar; ahora se auto-repara al abrir el juego.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/United2204/cartridge-releases/releases/download/v0.1-beta11/Cartridge.zip"
+                 sparkle:edSignature="6zYR9q00lKelc6mBoKDUl0ykbWiYFuI0XZB5wVoaYy2q13pfGydeBHopoStuL5AVZqk1tCjk8P2G3rojuN9MAg=="
+                 length="109074918"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Cartridge 0.1 (beta 10)</title>
       <pubDate>Tue, 07 Jul 2026 14:49:26 +0000</pubDate>
       <sparkle:version>10</sparkle:version>
