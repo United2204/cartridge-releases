@@ -27,26 +27,16 @@ actualiza sola (ver más abajo).
 
 ## Instalación
 
-macOS va a bloquear la app la primera vez porque todavía no tiene firma de
-Apple (eso es un trámite aparte, no afecta cómo funciona). Para abrirla:
+Cartridge ya está firmado y notarizado por Apple, así que se instala como
+cualquier otra app:
 
 1. Descomprimí el `.zip` que bajaste y mové `Cartridge.app` a tu carpeta de
    Aplicaciones (o donde prefieras).
-2. **Probá primero:** click derecho sobre `Cartridge.app` → **Abrir**. Si
-   aparece un aviso de "desarrollador no identificado", tocá **Abrir** igual.
-3. **En macOS moderno (Sequoia / Tahoe) el click derecho ya no alcanza** —
-   la primera vez te va a decir que no se puede abrir. Es normal. Hacé esto:
-   - Abrí **Ajustes del Sistema → Privacidad y seguridad**.
-   - Bajá hasta el final: vas a ver un mensaje tipo *"Se bloqueó el uso de
-     Cartridge.app…"* con un botón **"Abrir igual"**. Tocalo.
-   - Confirmá con tu contraseña/Touch ID y elegí **Abrir**.
-4. **Si dice que "está dañada"** y no te deja de ninguna forma, abrí la
-   Terminal y corré esto una sola vez (cambiá la ruta si moviste la app):
-   ```
-   xattr -cr /Applications/Cartridge.app
-   ```
-   y volvé a intentar.
-5. Después de esa primera vez, abre normal con doble click.
+2. **Doble click para abrirla.** No debería aparecer ningún aviso de
+   seguridad.
+   - Si igual te aparece un aviso de Gatekeeper (por ejemplo si bajaste una
+     versión vieja sin firma), tocá **Abrir** igual, o andá a **Ajustes del
+     Sistema → Privacidad y seguridad** y confirmá ahí.
 
 ## Actualizaciones automáticas
 
