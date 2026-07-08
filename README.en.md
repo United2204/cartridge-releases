@@ -28,28 +28,15 @@ updates itself (see below).
 
 ## Installation
 
-macOS will block the app the first time because it doesn't have an Apple
-developer signature yet (that's a separate paperwork step, it doesn't
-affect how the app works). To open it:
+Cartridge is now signed and notarized by Apple, so it installs like any
+other app:
 
 1. Unzip the `.zip` you downloaded and move `Cartridge.app` to your
    Applications folder (or wherever you prefer).
-2. **Try first:** right-click `Cartridge.app` → **Open**. If you get an
-   "unidentified developer" warning, click **Open** anyway.
-3. **On recent macOS (Sequoia / Tahoe) the right-click trick no longer
-   works** — the first time it'll just say it can't be opened. That's
-   normal. Do this instead:
-   - Open **System Settings → Privacy & Security**.
-   - Scroll to the bottom: you'll see a message like *"Cartridge.app was
-     blocked…"* with an **"Open Anyway"** button. Click it.
-   - Confirm with your password / Touch ID and choose **Open**.
-4. **If it says the app "is damaged"** and won't let you open it at all,
-   open Terminal and run this once (adjust the path if you moved the app):
-   ```
-   xattr -cr /Applications/Cartridge.app
-   ```
-   then try again.
-5. After that first time, it opens normally with a double-click.
+2. **Double-click to open it.** You shouldn't see any security warning.
+   - If you do get a Gatekeeper warning anyway (for example if you
+     downloaded an old unsigned build), click **Open** anyway, or go to
+     **System Settings → Privacy & Security** and confirm from there.
 
 ## Automatic updates
 
