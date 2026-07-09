@@ -6,6 +6,22 @@
     <description>Actualizaciones de Cartridge</description>
     <language>es</language>
     <item>
+      <title>Cartridge 0.1 (beta 14)</title>
+      <pubDate>Thu, 09 Jul 2026 19:44:59 +0000</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.1-beta14</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Arregla un crash al escribir el nombre del jugador en juegos con plugin de acentos (p. ej. Pokémon Gadir Deluxe).</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/United2204/cartridge-releases/releases/download/v0.1-beta14/Cartridge.zip"
+                 sparkle:edSignature="ha7Oeas/FqMsPYBRlVh9hZiOeA+C39ilan8ZiJd/UhKayEasUx04acaNz1fwtlChVziCKbfk0Og6q2IDHnmKBQ=="
+                 length="109331975"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Cartridge 0.1 (beta 13)</title>
       <pubDate>Thu, 09 Jul 2026 00:06:35 +0000</pubDate>
       <sparkle:version>13</sparkle:version>
