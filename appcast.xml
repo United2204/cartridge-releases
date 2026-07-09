@@ -6,6 +6,22 @@
     <description>Actualizaciones de Cartridge</description>
     <language>es</language>
     <item>
+      <title>Cartridge 0.1 (beta 13)</title>
+      <pubDate>Thu, 09 Jul 2026 00:06:35 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.1-beta13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Arregla un crash al arrancar en fangames que usan la utilidad Win32API/Mouse compartida (GetCursorPos/pbFindRgssWindow): ArgumentError o RuntimeError sin rescatar.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/United2204/cartridge-releases/releases/download/v0.1-beta13/Cartridge.zip"
+                 sparkle:edSignature="4le+EixtBKie9OFAAAXG8XJqSyvVoTfJty1OijGZpqYyWwH1x18ke7TxCkf+du8mDDeseSqRT4ihC0HlLC+pBg=="
+                 length="109298860"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Cartridge 0.1 (beta 12)</title>
       <pubDate>Wed, 08 Jul 2026 18:14:27 +0000</pubDate>
       <sparkle:version>12</sparkle:version>
