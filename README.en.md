@@ -96,7 +96,7 @@ It doesn't need to be a formal report — a message describing what you saw
 is enough.
 
 We also have a Discord for bug reports, chat, and news:
-**<https://discord.gg/XjurW8XXPf>**
+**<https://discord.gg/j2NXFQSsXt>**
 
 ## Support the project
 

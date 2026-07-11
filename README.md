@@ -96,7 +96,7 @@ No hace falta que sea un reporte formal, con un mensaje contándonos lo que
 viste alcanza.
 
 También tenemos un Discord para reportar bugs, charlar y enterarte de
-novedades: **<https://discord.gg/XjurW8XXPf>**
+novedades: **<https://discord.gg/j2NXFQSsXt>**
 
 ## Apoyar el proyecto
 
