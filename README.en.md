@@ -3,7 +3,7 @@
 *[Leer en español](README.md)*
 
 Thanks for helping out with this project! Cartridge is a native macOS
-launcher for Pokémon fangames made with RPG Maker XP / Essentials. The
+launcher for fangames made with RPG Maker XP / Essentials. The
 idea is simple: hit PLAY and the game just runs — no Wine, no manual
 setup.
 
