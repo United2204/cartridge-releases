@@ -6,6 +6,22 @@
     <description>Actualizaciones de Cartridge</description>
     <language>es</language>
     <item>
+      <title>Cartridge 0.1 (beta 15)</title>
+      <pubDate>Fri, 24 Jul 2026 00:23:03 +0000</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.1-beta15</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Arregla freeze real de Pokémon Añil: una ruta IPv6 muerta hacía que cualquier chequeo de red (ej. buscar actualizaciones) tardara 15-65s en vez de responder al instante. También evita el crash si el juego intenta lanzar un updater .exe (imposible en Mac): ahora cae solo al aviso de actualización manual.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/United2204/cartridge-releases/releases/download/v0.1-beta15/Cartridge.zip"
+                 sparkle:edSignature="ipXaUsIHo4JYXrW+MSOhzGsBJmFc8pF6uniM6S1IMih+nt0Xc5qRyZShanVONl0sXr5mhgjmq3NSga9bKf85DQ=="
+                 length="109332920"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Cartridge 0.1 (beta 14)</title>
       <pubDate>Thu, 09 Jul 2026 19:44:59 +0000</pubDate>
       <sparkle:version>14</sparkle:version>
