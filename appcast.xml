@@ -6,6 +6,22 @@
     <description>Actualizaciones de Cartridge</description>
     <language>es</language>
     <item>
+      <title>Cartridge 1.0.1</title>
+      <pubDate>Sat, 03 Oct 2026 16:37:48 +0000</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Corrige la conversión de scripts Ruby 1.8 para iniciar juegos que antes fallaban.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/United2204/cartridge-releases/releases/download/v1.0.1/Cartridge.zip"
+                 sparkle:edSignature="vUxkX9UyYbxMia7pQWcFbrasbrJxqseleiF7MDx6g+Npy8SROIdcAH7u3DVhlJXcQOvlqt+jr+YWfSoHtGo3Bg=="
+                 length="109314270"
+                 type="application/octet-stream" />
+    </item>
+    <item>
       <title>Cartridge 1.0.0</title>
       <pubDate>Thu, 03 Sep 2026 01:02:02 +0000</pubDate>
       <sparkle:version>16</sparkle:version>
